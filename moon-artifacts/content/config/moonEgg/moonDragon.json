@@ -1,0 +1,64 @@
+{
+	"moonDragon":
+	{
+		"name" :
+		{
+			"plural" : "Moon Dragons",
+			"singular" : "Moon Dragon"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 10,
+			 "min" : 4
+		},
+		"faction" : "neutral",
+		"aiValue" : 5440,
+		"attack" : 22,
+		"cost" :
+		{
+			"gold" : 2750,
+			"mercury" : 2
+		},
+		"damage" :
+		{
+			 "max" : 50,
+			 "min" : 25
+		},
+		"defense" : 22,
+		"fightValue" : 4357,
+		"graphics" :
+		{
+			"animation" : "moonEgg/moonD",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1 },
+//			"map" : "",
+			"iconSmall" : "moonEgg/dSmall",
+			"iconLarge" : "moonEgg/dBig",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : true,
+		"special" : true,
+		"growth" : 1,
+		"hitPoints" : 180,
+		"level" : 7,
+		"sound" :
+		{
+			"attack": "GRDRATTK.wav",
+			"defend": "GRDRDFND.wav",
+			"killed": "GRDRKILL.wav",
+			"move": "GRDRMOVE.wav",
+			"wince": "GRDRWNCE.wav"
+		},
+		"speed" : 10,
+		"abilities" :
+		{
+            "isDragon" :
+			{
+				"type" : "DRAGON_NATURE"
+			},
+			"ferocity" :
+			{
+				"type" : "FEROCITY"
+			}
+		}
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"moonWing" : {
+		"bonuses" : 
+		[
+			{
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["sand"]
+				} ]
+			},
+			{
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["snow"]
+				} ]
+			},
+			{
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["rough"]
+				} ]
+			},
+			{
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["lava"]
+				} ]
+			},
+			{
+				"type" : "SHOTS",
+				"val" : 50,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["grass"]
+				} ]
+			},
+			{
+				"type" : "SHOTS",
+				"val" : 50,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["swamp"]
+				} ]
+			},
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 10,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["dirt"]
+				} ]
+			},
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 10,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["subterra"]
+				} ]
+			},
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 10,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_TERRAIN_LIMITER",
+					"parameters" : ["water"]
+				} ]
+			}
+		],
+		"class" : "MAJOR",
+		"graphics" : { "image" : "moonWing/moonWing", "large" : "moonWing/moonWing", "map" : "moonWing/wing" },
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Moon Wing}\r\n\r\nWhen equipped, adds various bonuses to creatures depends of terrain hero stands:\r\nOn sand and snow adds +2 to Speed\r\nOn rough and lava add +2 do damage\r\nOn grass and swamp add 50% more shots\r\nOn dirt, subbtera and water adds +10% to health.",
+			"event" : "This place reminds you of legends about the Ancients - a ruined temple filled with all sorts of strange objects. One of them is not like the others, however - the golden treasure glares across the whole room. You quickly pick it up and exit the temple, hoping no one will try to steal it from you.",
+			"name" : "Moon Wing"
+		},
+		"type" : [ "HERO" ],
+		"value" : 8000
+	}
+}

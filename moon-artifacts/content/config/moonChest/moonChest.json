@@ -1,0 +1,93 @@
+{
+	"core:creatureBank" : 
+	{
+		"types" : 
+		{
+			"moonChest" : 
+			{
+				"name" : "Moon Chest",
+				"removable": true,
+				"templates" :
+				{
+					"normal" :
+					{
+						"animation" : "moonChest/magechst.def",
+						"visitableFrom" : [ "+++", "+++", "+++" ], 
+						"mask" : [ "VA"]
+					}
+				},
+				"sounds" : {
+					"visit" : ["CHEST"],
+					"removal" : [ "PICKUP01", "PICKUP02", "PICKUP03", "PICKUP04", "PICKUP05", "PICKUP06", "PICKUP07" ]
+				},
+				"rmg" : {
+					"value"		: 1500,
+					"rarity"	: 100
+				},
+				"levels":
+				[
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 7, "type" : "moonMage" },
+							{ "amount": 7, "type" : "moonMage" },
+							{ "amount": 7, "type" : "moonMage" },
+							{ "amount": 7, "type" : "moonMage" },
+							{ "amount": 7, "type" : "moonMage" }
+						],
+						"combat_value": 7500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 3, "type": "moonMage" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 10, "type" : "moonMage" },
+							{ "amount": 10, "type" : "moonMage" },
+							{ "amount": 10, "type" : "moonMage" },
+							{ "amount": 10, "type" : "moonMage" },
+							{ "amount": 10, "type" : "moonMage" }
+						],
+						"combat_value": 7500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 6, "type": "moonMage" } ]
+						}
+					},
+					{
+						"chance": 30,
+						"guards": [
+							{ "amount": 13, "type" : "moonMage" },
+							{ "amount": 13, "type" : "moonMage" },
+							{ "amount": 13, "type" : "moonMage" },
+							{ "amount": 13, "type" : "moonMage" },
+							{ "amount": 13, "type" : "moonMage" }
+						],
+						"combat_value": 7500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 9, "type": "moonMage" } ]
+						}
+					},
+					{
+						"chance": 10,
+						"guards": [
+							{ "amount": 16, "type" : "moonMage" },
+							{ "amount": 16, "type" : "moonMage" },
+							{ "amount": 16, "type" : "moonMage" },
+							{ "amount": 16, "type" : "moonMage" },
+							{ "amount": 16, "type" : "moonMage" }
+						],
+						"combat_value": 7500,
+						"reward" : {
+							"value": 5000,
+							"creatures": [ { "amount": 12, "type": "moonMage" } ]
+						}
+					}
+				]
+			}
+		}
+	}
+}

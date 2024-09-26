@@ -1,0 +1,41 @@
+{
+	"author" : "avatar, Trith, Aphra",
+	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
+	"description" : "Set of 5 new artfifacts",
+	"licenseName" : "Creative Commons Attribution-ShareAlike",
+	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
+	"modType" : "Artifacts",
+	"name" : "Moon Artifacts",
+	"version" : "1.0.0",
+	"compatibility" :
+	{
+		"min" : "1.5"
+	},
+	"changelog" :
+	{
+		"1.0.0"   : [ "Initial release" ]
+	},	
+	"artifacts" :
+	[
+		"config/moonEgg/moonEgg",
+		"config/moonGranite/moonGranite",
+		"config/moonPearl/moonPearl",
+		"config/moonWing/moonWing",
+		"config/moonFruit/moonFruit"
+	],
+	"creatures" :
+	[
+		"config/moonEgg/moonDragon",
+		"config/moonGranite/moonGolem",
+		"config/moonChest/moonMage"
+	],
+	"spells" :
+	[
+		"config/moonEgg/summonMoonDragon"
+		
+	],
+	"objects" :
+	[
+		"config/moonChest/moonChest"
+	]
+}

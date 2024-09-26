@@ -1,0 +1,130 @@
+{
+	"moonMage": {
+		"name" : {
+			"singular" : "Moon Mage",
+			"plural" : "Moon Mages"
+		},
+		"faction" : "neutral",
+		"level" : 6,
+		"cost" : {
+			"gold" : 750
+		},
+		"speed" : 9,
+		"hitPoints" : 30,
+		"attack" : 17,
+		"defense" : 12,
+		"damage" : {
+			"min" : 14,
+			"max" : 14
+		},
+		"shots" : 32,
+		"growth" : 2,
+		"horde" : 0,
+		"aiValue" : 1210,
+		"fightValue" : 805,
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 12
+		},
+		"abilities" : {
+			"SHOOTING_ARMY" : {
+				"type" : "SHOOTER"
+			},
+			"const_no_melee_penalty" : {
+				"type" : "NO_MELEE_PENALTY"
+			},
+			"noPenalty" : {
+				"type" : "NO_WALL_PENALTY"
+			},
+			"casts" : {
+				"type" : "CASTS",
+				"val" : 5
+			},
+			"castsAirShield" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.airShield",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsBless" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.bless",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsHaste" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.haste",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsSlow" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.slow",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsStoneSkin" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.stoneSkin",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"castsWeakness" : {
+				"type" : "ENCHANTER",
+				"subtype" : "spell.weakness",
+				"val" : 3,
+				"addInfo" : 3
+			},
+			"revenge" : {
+				"type" : "REVENGE"
+			}
+		},
+		"graphics" : {
+			"animation" : "moonChest/Cench.def",
+			"iconSmall" : "moonChest/czSmall",
+			"iconLarge" : "moonChest/czBig",
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"missile" : {
+				"projectile" : "CPRZEAX.DEF",
+				"attackClimaxFrame" : 6,
+				"frameAngles" : [
+					90,
+					72,
+					45,
+					27,
+					0,
+					-27,
+					-45,
+					-72,
+					-90,
+					0,
+					0,
+					0
+				],
+				"offset" : {
+					"lowerX" : 28,
+					"lowerY" : 3,
+					"middleX" : 62,
+					"middleY" : -53,
+					"upperX" : 37,
+					"upperY" : -98
+				}
+			},
+			"timeBetweenFidgets" : 1,
+		},
+		"sound" : {
+			"attack" : "ENCHATTK.wav",
+			"defend" : "ENCHDFND.wav",
+			"killed" : "ENCHKILL.wav",
+			"move" : "ENCHMOVE.wav",
+			"shoot" : "ENCHSHOT.wav",
+			"wince" : "ENCHWNCE.wav"
+		},
+		"special" : true
+	}
+}

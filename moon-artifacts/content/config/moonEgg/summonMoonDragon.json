@@ -1,0 +1,74 @@
+{
+	"summonMoonDragon":
+	{
+		"type": "ability", 
+		"name": "Summon Moon Dragon",
+		"school":
+		{
+			"air": false,
+			"earth": false,
+			"fire": false,
+			"water": false
+		},
+		"level": 5,
+		"power": 40,
+		"defaultGainChance": 0, 
+		"gainChance":
+		{
+		},
+		"flags" : {
+			"indifferent": true,
+			"special": true
+        }, 
+		"graphics":
+		{
+			"iconBook": "moonEgg/null",
+			"iconScroll": "moonEgg/null",
+			"iconScenarioBonus": "moonEgg/null",
+			"iconEffect": "moonEgg/null"
+		},
+		"animation":
+		{
+//			"cast": ["AnotherSummon/C12SPF0.def"]
+		},
+		"sounds":
+		{
+			"cast": "SUMNELM"
+		},
+		"targetType": "NO_TARGET",
+		"levels":
+	     {
+			"base":
+			{
+				"description": "{Summon Moon Dragon}\r\n\r\nSummons might Moon Dragon at the beginning of the battle.",
+				"power": 20,
+				"aiValue": 10,
+				"cost": 0,
+				"range": "X",
+				"targetModifier":{"smart":true},
+				"battleEffects":{
+					"summon":{
+						"exclusive":true,
+						"id":"moonDragon",
+						"permanent":false,
+						"summonByHealth" : true,
+						"type":"core:summon",
+						"maxFullUnits" : 1
+					}
+				}				
+			},		
+			"none":
+			{
+			},
+			"basic":
+			{
+			},
+			"advanced":
+			{
+			},
+			"expert":
+			{
+			}
+		}
+	}
+}

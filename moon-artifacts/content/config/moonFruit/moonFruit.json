@@ -1,0 +1,24 @@
+{
+	"moonFruit" : {
+		"bonuses" : 
+		[
+			{
+				"type" : "LIMITED_SHOOTING_RANGE",
+				"val" : 6,
+				"propagator" : "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"limiters" : [ "OPPOSITE_SIDE" ]
+			}
+		],
+		"class" : "MAJOR",
+		"graphics" : { "image" : "moonFruit/moonFruit", "large" : "moonFruit/moonFruit", "map" : "moonFruit/fruit2" },
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Moon Fruit}\r\n\r\nWhen equipped all enemy shooters can shoot only for 6 hexes ",
+			"name" : "Moon Fruit",
+			"event" : "This place reminds you of legends about the Ancients - a ruined temple filled with all sorts of strange objects. One of them is not like the others, however - the golden treasure glares across the whole room. You quickly pick it up and exit the temple, hoping no one will try to steal it from you.",
+		},
+		"type" : [ "HERO" ],
+		"value" : 6000
+	}
+}

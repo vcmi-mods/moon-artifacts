@@ -1,0 +1,83 @@
+
+{
+	"moonGolem":
+	{
+		"name" :
+		{
+			"plural" : "Moon Golems",
+			"singular" : "Moon Golem"
+		},
+		"advMapAmount" :
+		{
+			 "max" : 14,
+			 "min" : 9
+		},
+		"faction" : "neutral",
+		"aiValue" : 690,
+		"attack" : 12,
+		"cost" :
+		{
+			"gold" : 625
+		},
+		"damage" :
+		{
+			 "max" : 12,
+			 "min" : 9
+		},
+		"defense" : 12,
+		"fightValue" : 690,
+		"graphics" :
+		{
+			"animation" : "moonGranite/MGOLEM",
+			"animationTime" : { "attack" : 1, "idle" : 10, "walk" : 1.23 },
+//			"map" : "",
+			"iconSmall" : "moonGranite/golSmall",
+			"iconLarge" : "moonGranite/golBig",
+			"timeBetweenFidgets" : 1
+		},
+		"doubleWide" : false,
+		"special" : true,
+		"growth" : 2,
+		"hitPoints" : 55,
+		"level" : 6,
+		"sound" :
+		{
+			"attack": "DGLMATTK.wav",
+			"defend": "DGLMDFND.wav",
+			"killed": "DGLMKILL.wav",
+			"move": "DGLMMOVE.wav",
+			"wince": "DGLMWNCE.wav"
+		},
+		"speed" : 5,
+		"abilities" :
+		{
+			"magicResistance" :
+			{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : "any",
+				"val" : 90
+			},
+			"nonliving" :
+			{
+				"type" : "NON_LIVING"
+			},
+			"castsIceBolt" :
+			{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.iceBolt",
+				"addInfo" : 2,
+				"val" : 2
+			},
+			"spellpower" :
+			{
+				"type" : "CREATURE_SPELL_POWER",
+				"val" : 100
+			},
+			"casts" :
+			{
+				"type" : "CASTS",
+				"val" : 3
+			}
+		}
+	}
+}

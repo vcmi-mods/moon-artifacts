@@ -1,0 +1,128 @@
+{
+	"moonPearl" : {
+		"bonuses" : 
+		[
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 10,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["good"]
+				} ]
+			},
+			{
+				"type" : "STACKS_SPEED",
+				"val" : -1,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["good"]
+				} ]
+			},
+			{
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["good"]
+				} ]
+			},
+			{
+				"type" : "SHOTS",
+				"val" : 10,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["good"]
+				} ]
+			},
+			{
+				"type" : "STACK_HEALTH",
+				"val" : -5,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["evil"]
+				} ]
+			},
+			{
+				"type" : "STACKS_SPEED",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["evil"]
+				} ]
+			},
+			{
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageMax",
+				"val" : 2,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["evil"]
+				} ]
+			},
+			{
+				"type" : "SHOTS",
+				"val" : 5,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["evil"]
+				} ]
+			},
+			{
+				"type" : "STACK_HEALTH",
+				"val" : 5,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["neutral"]
+				} ]
+			},
+			{
+				"type" : "STACKS_SPEED",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["neutral"]
+				} ]
+			},
+			{
+				"type" : "CREATURE_DAMAGE",
+				"subtype" : "creatureDamageBoth",
+				"val" : 3,
+				"valueType" : "BASE_NUMBER",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["neutral"]
+				} ]
+			},
+			{
+				"type" : "SHOTS",
+				"val" : -5,
+				"valueType" : "PERCENT_TO_BASE",
+				"limiters" : [ {
+					"type" : "CREATURE_ALIGNMENT_LIMITER",
+					"parameters" : ["neutral"]
+				} ]
+			}	
+		],
+		"class" : "MAJOR",
+		"graphics" : { "image" : "moonPearl/moonPearl", "large" : "moonPearl/moonPearl", "map" : "moonPearl/pearl" },
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Moon Pearl}\r\n\r\nWhen equipped:\r\nCreatures under good heroes command gain: +10% health, -1 speed, +2 damage (min and max), +10% more shots\r\nCreatures under evil heroes command gain: -5% health, +2 speed, +2 max damage, +5% more shots\r\nCreatures under neutral heroes command gain: +5% health, +1 speed, +3 damage (min and max), -5% less shots",
+			"event" : "This place reminds you of legends about the Ancients - a ruined temple filled with all sorts of strange objects. One of them is not like the others, however - the golden treasure glares across the whole room. You quickly pick it up and exit the temple, hoping no one will try to steal it from you.",
+			"name" : "Moon Pearl"
+		},
+		"type" : [ "HERO" ],
+		"value" : 6500
+	}
+}

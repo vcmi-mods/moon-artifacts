@@ -1,0 +1,22 @@
+{
+	"moonEgg" : {
+		"bonuses" : 
+		[
+			{
+				"subtype" : "spell.summonMoonDragon",
+				"type" : "OPENING_BATTLE_SPELL",
+				"val" : 1
+			}		
+		],
+		"class" : "MAJOR",
+		"graphics" : { "image" : "moonEgg/moonEgg", "large" : "moonEgg/moonEggL", "map" : "moonEgg/fruit" },
+		"slot" : "MISC",
+		"text" : {
+			"description" : "Summons Moon Dragon at the beggining of the battle.",
+			"event" : "This place reminds you of legends about the Ancients - a ruined temple filled with all sorts of strange objects. One of them is not like the others, however - the golden treasure glares across the whole room. You quickly pick it up and exit the temple, hoping no one will try to steal it from you.",
+			"name" : "Moon Egg"
+		},
+		"type" : [ "HERO" ],
+		"value" : 6500
+	}
+}

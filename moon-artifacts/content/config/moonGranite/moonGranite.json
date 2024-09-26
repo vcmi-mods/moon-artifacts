@@ -1,0 +1,34 @@
+{
+	"moonGranite" : {
+		"bonuses" : 
+		[
+			{
+				"addInfo" : "creature.moonGolem",
+				"type" : "TRANSMUTATION",
+				"subtype" : "transmutationPerHealth",
+				"val" : 40,
+				"limiters" : [
+					"anyOf",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"parameters" : [ "NON_LIVING" ]
+					},
+					{	
+						"type":"CREATURE_TYPE_LIMITER",
+						"parameters": [ "ballista", false ]
+					}
+				]
+			}		
+		],
+		"class" : "MINOR",
+		"graphics" : { "image" : "moonGranite/moonGranite", "large" : "moonGranite/moonGranite", "map" : "moonGranite/shard" },
+		"slot" : "MISC",
+		"text" : {
+			"description" : "{Moon Granite}\r\n\r\nAny non-living friendly creatures or Ballista has 40% to transmute enemy stack into Moon Golem",
+			"event" : "This place reminds you of legends about the Ancients - a ruined temple filled with all sorts of strange objects. One of them is not like the others, however - the golden treasure glares across the whole room. You quickly pick it up and exit the temple, hoping no one will try to steal it from you.",
+			"name" : "Moon Granite"
+		},
+		"type" : [ "HERO" ],
+		"value" : 2000
+	}
+}
