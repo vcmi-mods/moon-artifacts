@@ -1,12 +1,12 @@
 {
 	"author" : "avatar, Trith, Aphra",
 	"contact" : "http://www.forum.acidcave.net/topic.php?TID=1423",
-	"description" : "Set of 5 new artfifacts",
+	"description" : "Set of 5 new artfifacts and 3 units",
 	"licenseName" : "Creative Commons Attribution-ShareAlike",
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Artifacts",
 	"name" : "Moon Artifacts",
-	"version" : "1.0.1",
+	"version" : "1.0.2",
 	"compatibility" :
 	{
 		"min" : "1.5"
@@ -14,8 +14,16 @@
 	"changelog" :
 	{
 		"1.0.0"   : [ "Initial release" ],
-		"1.0.1"   : [ "Small fixes" ]
-	},	
+		"1.0.1"   : [ "Small fixes" ],
+		"1.0.2"   : [ "Czech translation by George King" ]
+	},
+	"czech" : {
+		"name": "Měsíční artefakty",
+		"description": "Sada 5 nových artefaktů a 3 jednotek",
+		"translations" : [
+			"translation/moon-artifacts/czech.json"
+		]
+	},
 	"artifacts" :
 	[
 		"config/moonEgg/moonEgg",
