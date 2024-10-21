@@ -6,7 +6,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Artifacts",
 	"name" : "Moon Artifacts",
-	"version" : "1.0.2",
+	"version" : "1.0.3",
 	"compatibility" :
 	{
 		"min" : "1.5"
@@ -15,13 +15,21 @@
 	{
 		"1.0.0"   : [ "Initial release" ],
 		"1.0.1"   : [ "Small fixes" ],
-		"1.0.2"   : [ "Czech translation by George King" ]
+		"1.0.2"   : [ "Czech translation by George King" ],
+		"1.0.3"   : [ "Added Chinese translation and the creatures' stackExp" ]
 	},
 	"czech" : {
 		"name": "Měsíční artefakty",
 		"description": "Sada 5 nových artefaktů a 3 jednotek",
 		"translations" : [
 			"translation/moon-artifacts/czech.json"
+		]
+	},
+	"chinese" : {
+		"name" : "月之秘宝",
+		"description" : "5个月系新宝物",
+		"translations" : [
+			"translation/moon-artifacts/chinese.json"
 		]
 	},
 	"artifacts" :
