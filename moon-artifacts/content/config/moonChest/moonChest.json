@@ -26,7 +26,7 @@
 				},
 				"onGuardedMessage" : "Beneath the moonlight, you find a treasure chest seemingly fallen from the sky, guarded by eerie enchanters cloaked in starlight. The air hums with magic as you prepare for an otherworldly challenge. Are you bold enough to claim what it contains?",
 //				"onVisitedMessage" : "A Temple of the Sea was here once. Now it's abandoned and empty.",
-				"visitMode" : "once",
+				"visitMode" : "unlimited",
 				"selectMode" : "selectFirst",
 				"guardsLayout" : "creatureBankWide",
 				"blockedVisitable": true,
