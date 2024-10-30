@@ -6,7 +6,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Artifacts",
 	"name" : "Moon Artifacts",
-	"version" : "1.0.3",
+	"version" : "1.0.4",
 	"compatibility" :
 	{
 		"min" : "1.5"
@@ -16,7 +16,8 @@
 		"1.0.0"   : [ "Initial release" ],
 		"1.0.1"   : [ "Small fixes" ],
 		"1.0.2"   : [ "Czech translation by George King" ],
-		"1.0.3"   : [ "Added Chinese translation and the creatures' stackExp" ]
+		"1.0.3"   : [ "Added Chinese translation and the creatures' stackExp" ],
+		"1.0.4"   : [ "Moon chest bank has now vcmi-1.6 format" ]
 	},
 	"czech" : {
 		"name": "Měsíční artefakty",
