@@ -24,5 +24,6 @@
 	"creatures.moon-artifacts.moonMage.name.plural" : "Měsíční mágové",
 	"creatures.moon-artifacts.moonMage.name.singular" : "Měsíční mág",
 	"mapObject.moon-artifacts.creatureBank.moonChest.name" : "Měsíční truhla",
+	"mapObject.moon-artifacts.creatureBank.moonChest.onGuarded": "Pod měsíčním světlem nacházíte pokladnici, která jako by spadla z nebe, střeženou tajuplnými zaklínači zahalenými v hvězdném závoji. Vzduch je nabitý magií, když se připravujete na nadpozemskou výzvu. Máte dost odvahy získat její obsah?",
 	"spell.moon-artifacts.summonMoonDragon.name" : "Přivolat Měsíčního draka"
 }
