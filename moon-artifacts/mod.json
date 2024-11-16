@@ -6,7 +6,7 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Artifacts",
 	"name" : "Moon Artifacts",
-	"version" : "1.0.5",
+	"version" : "1.0.6",
 	"compatibility" :
 	{
 		"min" : "1.5"
@@ -18,7 +18,8 @@
 		"1.0.2"   : [ "Czech translation by George King" ],
 		"1.0.3"   : [ "Added Chinese translation and the creatures' stackExp" ],
 		"1.0.4"   : [ "Moon chest bank has now vcmi-1.6 format" ],
-		"1.0.5"   : [ "Removed 'Not Visited' message from Moon Chest", "Updated Czech translation" ]
+		"1.0.5"   : [ "Removed 'Not Visited' message from Moon Chest", "Updated Czech translation" ],
+        "1.0.6"   : [ "Polish translation by FallainBlack" ]
 	},
 	"czech" : {
 		"name": "Měsíční artefakty",
@@ -32,6 +33,13 @@
 		"description" : "5个月系新宝物",
 		"translations" : [
 			"translation/moon-artifacts/chinese.json"
+		]
+	},
+    "polish" : {
+		"name" : "Księżycowe Artefakty",
+		"description" : "Zestaw 5 nowych artefaktów i 3 jednostek",
+		"translations" : [
+			"translation/moon-artifacts/polish.json"
 		]
 	},
 	"artifacts" :
