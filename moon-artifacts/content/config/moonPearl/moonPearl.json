@@ -1,7 +1,8 @@
 {
 	"moonPearl" : {
 		"bonuses" : 
-		[
+		{
+			"stackHealth1" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 10,
@@ -11,6 +12,7 @@
 					"parameters" : ["good"]
 				} ]
 			},
+			"stackSpeed1" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : -1,
@@ -20,6 +22,7 @@
 					"parameters" : ["good"]
 				} ]
 			},
+			"creatureDamage1" :
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
@@ -30,6 +33,7 @@
 					"parameters" : ["good"]
 				} ]
 			},
+			"shots1" :
 			{
 				"type" : "SHOTS",
 				"val" : 10,
@@ -39,6 +43,7 @@
 					"parameters" : ["good"]
 				} ]
 			},
+			"stackHealth2" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : -5,
@@ -48,6 +53,7 @@
 					"parameters" : ["evil"]
 				} ]
 			},
+			"stackSpeed2" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 2,
@@ -57,6 +63,7 @@
 					"parameters" : ["evil"]
 				} ]
 			},
+			"creatureDamage2" :
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageMax",
@@ -67,6 +74,7 @@
 					"parameters" : ["evil"]
 				} ]
 			},
+			"shots2" :
 			{
 				"type" : "SHOTS",
 				"val" : 5,
@@ -76,6 +84,7 @@
 					"parameters" : ["evil"]
 				} ]
 			},
+			"stackHealth3" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 5,
@@ -85,6 +94,7 @@
 					"parameters" : ["neutral"]
 				} ]
 			},
+			"stackSpeed3" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 1,
@@ -94,6 +104,7 @@
 					"parameters" : ["neutral"]
 				} ]
 			},
+			"creatureDamage3" :
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
@@ -104,6 +115,7 @@
 					"parameters" : ["neutral"]
 				} ]
 			},
+			"shots3" :
 			{
 				"type" : "SHOTS",
 				"val" : -5,
@@ -113,7 +125,7 @@
 					"parameters" : ["neutral"]
 				} ]
 			}	
-		],
+		},
 		"class" : "MAJOR",
 		"graphics" : { "image" : "moonPearl/moonPearl", "large" : "moonPearl/moonPearl", "map" : "moonPearl/pearl" },
 		"slot" : "MISC",

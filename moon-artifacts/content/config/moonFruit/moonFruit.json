@@ -1,7 +1,8 @@
 {
 	"moonFruit" : {
 		"bonuses" : 
-		[
+		{
+			"limitedShootRange" :
 			{
 				"type" : "LIMITED_SHOOTING_RANGE",
 				"val" : 6,
@@ -9,7 +10,7 @@
 				"propagationUpdater" : "BONUS_OWNER_UPDATER",
 				"limiters" : [ "OPPOSITE_SIDE" ]
 			}
-		],
+		},
 		"class" : "MAJOR",
 		"graphics" : { "image" : "moonFruit/moonFruit", "large" : "moonFruit/moonFruit", "map" : "moonFruit/fruit2" },
 		"slot" : "MISC",

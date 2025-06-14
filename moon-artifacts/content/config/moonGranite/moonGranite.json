@@ -1,7 +1,8 @@
 {
 	"moonGranite" : {
 		"bonuses" : 
-		[
+		{
+			"golemTransmutation" :
 			{
 				"addInfo" : "creature.moonGolem",
 				"type" : "TRANSMUTATION",
@@ -19,7 +20,7 @@
 					}
 				]
 			}		
-		],
+		},
 		"class" : "MINOR",
 		"graphics" : { "image" : "moonGranite/moonGranite", "large" : "moonGranite/moonGranite", "map" : "moonGranite/shard" },
 		"slot" : "MISC",

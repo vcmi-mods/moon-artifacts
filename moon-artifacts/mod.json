@@ -6,10 +6,10 @@
 	"licenseURL" : "http://creativecommons.org/licenses/by-sa/4.0/deed",
 	"modType" : "Artifacts",
 	"name" : "Moon Artifacts",
-	"version" : "1.0.6",
+	"version" : "1.0.7",
 	"compatibility" :
 	{
-		"min" : "1.5"
+		"min" : "1.7.0"
 	},
 	"changelog" :
 	{
@@ -19,7 +19,8 @@
 		"1.0.3"   : [ "Added Chinese translation and the creatures' stackExp" ],
 		"1.0.4"   : [ "Moon chest bank has now vcmi-1.6 format" ],
 		"1.0.5"   : [ "Removed 'Not Visited' message from Moon Chest", "Updated Czech translation" ],
-        "1.0.6"   : [ "Polish translation by FallainBlack" ]
+        "1.0.6"   : [ "Polish translation by FallainBlack" ],
+		"1.0.7"   : [ "Update to vcmi-1.7 format" ]
 	},
 	"czech" : {
 		"name": "Měsíční artefakty",

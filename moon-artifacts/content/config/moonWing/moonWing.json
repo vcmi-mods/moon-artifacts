@@ -1,7 +1,8 @@
 {
 	"moonWing" : {
 		"bonuses" : 
-		[
+		{
+			"stackSpeed1" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 2,
@@ -11,6 +12,7 @@
 					"parameters" : ["sand"]
 				} ]
 			},
+			"stackSpeed2" :
 			{
 				"type" : "STACKS_SPEED",
 				"val" : 2,
@@ -20,6 +22,7 @@
 					"parameters" : ["snow"]
 				} ]
 			},
+			"creatureDamage1" : 
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
@@ -30,6 +33,7 @@
 					"parameters" : ["rough"]
 				} ]
 			},
+			"creatureDamage2" :
 			{
 				"type" : "CREATURE_DAMAGE",
 				"subtype" : "creatureDamageBoth",
@@ -40,6 +44,7 @@
 					"parameters" : ["lava"]
 				} ]
 			},
+			"shots1" :
 			{
 				"type" : "SHOTS",
 				"val" : 50,
@@ -49,6 +54,7 @@
 					"parameters" : ["grass"]
 				} ]
 			},
+			"shots2" :
 			{
 				"type" : "SHOTS",
 				"val" : 50,
@@ -58,6 +64,7 @@
 					"parameters" : ["swamp"]
 				} ]
 			},
+			"stackHealth1" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 10,
@@ -67,6 +74,7 @@
 					"parameters" : ["dirt"]
 				} ]
 			},
+			"stackHealth2" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 10,
@@ -76,6 +84,7 @@
 					"parameters" : ["subterra"]
 				} ]
 			},
+			"stackHealth3" :
 			{
 				"type" : "STACK_HEALTH",
 				"val" : 10,
@@ -85,7 +94,7 @@
 					"parameters" : ["water"]
 				} ]
 			}
-		],
+		},
 		"class" : "MAJOR",
 		"graphics" : { "image" : "moonWing/moonWing", "large" : "moonWing/moonWing", "map" : "moonWing/wing" },
 		"slot" : "MISC",
