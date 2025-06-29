@@ -10,7 +10,7 @@
 			}		
 		},
 		"class" : "MAJOR",
-		"graphics" : { "image" : "moonEgg/moonEgg", "large" : "moonEgg/moonEggL", "map" : "moonEgg/fruit" },
+		"graphics" : { "image" : "moonEgg/moonEgg", "scenarioBonus" : "moonEgg/moonEggL", "map" : "moonEgg/fruit" },
 		"slot" : "MISC",
 		"text" : {
 			"description" : "{Moon Egg}\r\n\r\nSummons Moon Dragon at the beggining of the battle.",

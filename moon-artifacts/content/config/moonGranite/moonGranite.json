@@ -22,7 +22,7 @@
 			}		
 		},
 		"class" : "MINOR",
-		"graphics" : { "image" : "moonGranite/moonGranite", "large" : "moonGranite/moonGranite", "map" : "moonGranite/shard" },
+		"graphics" : { "image" : "moonGranite/moonGranite", "scenarioBonus" : "moonGranite/moonGranite", "map" : "moonGranite/shard" },
 		"slot" : "MISC",
 		"text" : {
 			"description" : "{Moon Granite}\r\n\r\nAny non-living friendly creatures or Ballista has 40% to transmute enemy stack into Moon Golem",

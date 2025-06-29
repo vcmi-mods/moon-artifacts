@@ -127,7 +127,7 @@
 			}	
 		},
 		"class" : "MAJOR",
-		"graphics" : { "image" : "moonPearl/moonPearl", "large" : "moonPearl/moonPearl", "map" : "moonPearl/pearl" },
+		"graphics" : { "image" : "moonPearl/moonPearl", "scenarioBonus" : "moonPearl/moonPearl", "map" : "moonPearl/pearl" },
 		"slot" : "MISC",
 		"text" : {
 			"description" : "{Moon Pearl}\r\n\r\nWhen equipped:\r\nCreatures under good heroes command gain: +10% health, -1 speed, +2 damage (min and max), +10% more shots\r\nCreatures under evil heroes command gain: -5% health, +2 speed, +2 max damage, +5% more shots\r\nCreatures under neutral heroes command gain: +5% health, +1 speed, +3 damage (min and max), -5% less shots",

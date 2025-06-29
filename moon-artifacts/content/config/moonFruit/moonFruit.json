@@ -12,7 +12,7 @@
 			}
 		},
 		"class" : "MAJOR",
-		"graphics" : { "image" : "moonFruit/moonFruit", "large" : "moonFruit/moonFruit", "map" : "moonFruit/fruit2" },
+		"graphics" : { "image" : "moonFruit/moonFruit", "scenarioBonus" : "moonFruit/moonFruit", "map" : "moonFruit/fruit2" },
 		"slot" : "MISC",
 		"text" : {
 			"description" : "{Moon Fruit}\r\n\r\nWhen equipped all enemy shooters can shoot only for 6 hexes ",
