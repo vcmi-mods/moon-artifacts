@@ -12,11 +12,12 @@
 					"anyOf",
 					{
 						"type" : "HAS_ANOTHER_BONUS_LIMITER",
-						"parameters" : [ "NON_LIVING" ]
+						"bonusType" :  "NON_LIVING" 
 					},
 					{	
 						"type":"CREATURE_TYPE_LIMITER",
-						"parameters": [ "ballista", false ]
+						"creature": "ballista", 
+						"includeUpgrades" : false
 					}
 				]
 			}		

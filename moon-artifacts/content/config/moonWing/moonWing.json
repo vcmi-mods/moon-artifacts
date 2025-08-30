@@ -9,7 +9,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["sand"]
+					"terrain" : "sand"
 				} ]
 			},
 			"stackSpeed2" :
@@ -19,7 +19,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["snow"]
+					"terrain" : "snow"
 				} ]
 			},
 			"creatureDamage1" : 
@@ -30,7 +30,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["rough"]
+					"terrain" : "rough"
 				} ]
 			},
 			"creatureDamage2" :
@@ -41,7 +41,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["lava"]
+					"terrain" : "lava"
 				} ]
 			},
 			"shots1" :
@@ -51,7 +51,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["grass"]
+					"terrain" : "grass"
 				} ]
 			},
 			"shots2" :
@@ -61,7 +61,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["swamp"]
+					"terrain" : "swamp"
 				} ]
 			},
 			"stackHealth1" :
@@ -71,7 +71,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["dirt"]
+					"terrain" : "dirt"
 				} ]
 			},
 			"stackHealth2" :
@@ -81,7 +81,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["subterra"]
+					"terrain" : "subterra"
 				} ]
 			},
 			"stackHealth3" :
@@ -91,7 +91,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_TERRAIN_LIMITER",
-					"parameters" : ["water"]
+					"terrain" : "water"
 				} ]
 			}
 		},

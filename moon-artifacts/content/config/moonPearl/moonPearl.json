@@ -9,7 +9,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["good"]
+					"alignment" : "good"
 				} ]
 			},
 			"stackSpeed1" :
@@ -19,7 +19,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["good"]
+					"alignment" : "good"
 				} ]
 			},
 			"creatureDamage1" :
@@ -30,7 +30,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["good"]
+					"alignment" : "good"
 				} ]
 			},
 			"shots1" :
@@ -40,7 +40,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["good"]
+					"alignment" : "good"
 				} ]
 			},
 			"stackHealth2" :
@@ -50,7 +50,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["evil"]
+					"alignment" : "evil"
 				} ]
 			},
 			"stackSpeed2" :
@@ -60,7 +60,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["evil"]
+					"alignment" : "evil"
 				} ]
 			},
 			"creatureDamage2" :
@@ -71,7 +71,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["evil"]
+					"alignment" : "evil"
 				} ]
 			},
 			"shots2" :
@@ -81,7 +81,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["evil"]
+					"alignment" : "evil"
 				} ]
 			},
 			"stackHealth3" :
@@ -91,7 +91,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["neutral"]
+					"alignment" : "neutral"
 				} ]
 			},
 			"stackSpeed3" :
@@ -101,7 +101,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["neutral"]
+					"alignment" : "neutral"
 				} ]
 			},
 			"creatureDamage3" :
@@ -112,7 +112,7 @@
 				"valueType" : "BASE_NUMBER",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["neutral"]
+					"alignment" : "neutral"
 				} ]
 			},
 			"shots3" :
@@ -122,7 +122,7 @@
 				"valueType" : "PERCENT_TO_BASE",
 				"limiters" : [ {
 					"type" : "CREATURE_ALIGNMENT_LIMITER",
-					"parameters" : ["neutral"]
+					"alignment" : "neutral"
 				} ]
 			}	
 		},
